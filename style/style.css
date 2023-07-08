@@ -2,10 +2,10 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-.btn-primary button{
+.btn-primary button {
   border-radius: 5px;
   border: 0;
-  background-color: #F15B22;
+  background-color: #f15b22;
   color: rgb(243, 238, 238);
   padding: 21px 26px;
 }
@@ -18,38 +18,83 @@ body {
   height: 809px;
   text-align: right;
 }
-/* .banner {
-  color: #151414;
-  text-align: right;
+
+.banner-content {
+  width: 525px;
+  margin: auto;
+  padding-left: 600px;
+  padding-top: 150px;
 }
 .banner-title {
-    font-size: 65px;
-    font-weight: 250px;
-    margin-top: 5px;
-    
-  }
-  .banner-discription {
-    margin-bottom: 20px;
-  } */
-.banner-content{
-    width: 525px;
-    margin: auto;
-    padding-left: 600px;
-    padding-top: 150px;
-
+  color: #151414;
+  font-size: 45px;
+  font-weight: 115px;
+  width: 525px;
+  display: flex;
+  justify-content: end;
 }
-.banner-title{
-    color: #151414;
-    font-size: 45px;
-    font-weight: 115px;
-    width: 525px;
-    display: flex;
-    justify-content: end;
+.banner-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+/* main section */
+
+.profile {
+  display: flex;
+}
+
+.circle {
+  width: 350px;
+  height: 345px;
+  border-radius: 45%;
+  background-color: rgba(241, 93, 34, 0.346);
+  position: relative;
+  left: 300px;
+  bottom: 350px;
+  z-index: -1;
+}
+img{
+  width: 450px;
+  height: 550px;
+  padding-left: 250px;
+  padding-top: 50px;
  
+}
+
+.person-info {
+  width: 288px;
+  padding-left: 150px;
+  padding-top: 50px;
 
 }
-.banner-description{
-color: #444343;
-font-size: 16px;
-font-weight: 500px;
+.profile-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700px;
 }
+.profile-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.person-info ul li {
+  list-style: none;
+  color: #444343;
+}
+.plans{
+    text-align: center;
+    padding-top: 150px;
+ }
+
+ .wanna-do-container{
+    display: flex;
+    text-align: center;
+ }
+
+.icons {
+  width: 92.958px;
+  height: 92.958px;
+}
+
